@@ -449,3 +449,158 @@ ul li::before {
 .footer-icon.discord:hover {
   color: #a0b8ff;
 }
+
+/* ===============================
+   Media Queries para Responsividade
+   =============================== */
+
+/* Dispositivos pequenos (telefones, 600px para baixo) */
+@media only screen and (max-width: 600px) {
+  #header {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .blur-area {
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 20px;
+  }
+
+  #tf-logo {
+    width: 180px;
+  }
+
+  .container-infos {
+    text-align: center;
+  }
+
+  .container-infos h1 {
+    font-size: 1.8rem;
+  }
+
+  .ReactTyped {
+    min-height: 100px;
+    font-size: 1rem;
+  }
+
+  #nav {
+    padding: 0.5rem 0;
+  }
+
+  #nav a {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+
+  .skill-card {
+    padding: 1rem 0.5rem;
+  }
+
+  .skill-card .icon {
+    font-size: 1.5rem;
+  }
+
+  .skill-card span {
+    font-size: 0.9rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Dispositivos médios (tablets, 601px a 992px) */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  #header {
+    height: 80vh;
+  }
+
+  .blur-area {
+    flex-direction: row;
+    padding: 2rem;
+  }
+
+  #tf-logo {
+    width: 220px;
+  }
+
+  .container-infos h1 {
+    font-size: 2rem;
+  }
+
+  .ReactTyped {
+    font-size: 1.2rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}
+
+/* Dispositivos grandes (laptops/desktops, 993px para cima) */
+@media only screen and (min-width: 993px) {
+  #header {
+    height: 90vh;
+  }
+
+  .blur-area {
+    padding: 3rem;
+  }
+
+  #tf-logo {
+    width: 280px;
+  }
+
+  .container-infos h1 {
+    font-size: 2.5rem;
+  }
+
+  .ReactTyped {
+    font-size: 1.5rem;
+  }
+
+  .btn-cta {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+  }
+}
+
+/* Telas muito grandes (desktops grandes, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+  #header {
+    height: 100vh;
+  }
+
+  .blur-area {
+    max-width: 1100px;
+    padding: 3rem 4rem;
+  }
+
+  #tf-logo {
+    width: 320px;
+  }
+}
+
+/* Ajustes para orientação paisagem em dispositivos móveis */
+@media only screen and (max-height: 500px) and (orientation: landscape) {
+  #header {
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem 0;
+  }
+
+  .blur-area {
+    padding: 1.5rem;
+  }
+
+  #tf-logo {
+    width: 150px;
+  }
+}
