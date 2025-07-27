@@ -15,7 +15,7 @@ function Contacto() {
             `Nome: ${formData.nome}\nEmail: ${formData.email}\n\nMensagem:\n${formData.mensagem}`
         );
 
-        window.location.href = `mailto:teuemail@example.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:tomas.santos.frazao@egmail.com?subject=${subject}&body=${body}`;
     };
 
     return (
