@@ -157,7 +157,7 @@ body {
   width: 100%;
   padding: 4rem 2rem;
   background-color: #111927;
-  background-image: url("https://tomasfrazao.eu/imagem?name=step_background.png&password=$PASS");
+  background-image: url("/step_background.png");
   color: #1a202c;
   background-repeat: repeat-x;
   background-size: cover;

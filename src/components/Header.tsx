@@ -7,9 +7,9 @@ function Header() {
         <div>
             <header id="header">
                 <div className="personal-info">
-                    <img src='url(https://tomasfrazao.eu/imagem?name=top-bg.png&password=$PASS)' alt="Top BG" id='top-bg' />
+                    <img src="top-bg.png" alt="Top BG" id='top-bg' />
                     <div className='blur-area'>
-                        <img src='url(https://tomasfrazao.eu/imagem?name=pessoal.png&password=$PASS)' alt="TF Logo" id='tf-logo' />
+                        <img src="pessoal.png" alt="TF Logo" id='tf-logo' />
                         <div className='container-infos'>
                             <h1>Olá, sou o Tomás Frazão</h1>
                             <ReactTyped
