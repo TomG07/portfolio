@@ -9,7 +9,7 @@ function Footer() {
                 </p>
                 <div className="footer-social">
                     <a
-                        href="https://www.instagram.com/teu_usuario_instagram"
+                        href="https://www.instagram.com/tomfraza0"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"
@@ -18,7 +18,7 @@ function Footer() {
                         <FaInstagram />
                     </a>
                     <a
-                        href="https://discord.gg/seu_discord_invite"
+                        href="https://discord.gg/tbsZVq5WEx"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Discord"
